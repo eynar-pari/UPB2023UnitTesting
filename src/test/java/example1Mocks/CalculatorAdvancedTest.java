@@ -19,7 +19,7 @@ public class CalculatorAdvancedTest {
         Mockito.when(serviceCalcMock.mult(1,2)).thenReturn(2);
         Mockito.when(serviceCalcMock.mult(2,3)).thenReturn(6);
         Mockito.when(serviceCalcMock.mult(6,4)).thenReturn(24);
-        // PASO 4 > usar el objeto mockeado
+        // **** PASO 4 > usar el objeto mockeado
 
         CalculatorAdvanced calculatorAdvanced = new CalculatorAdvanced();
         calculatorAdvanced.setCalcService(serviceCalcMock);
